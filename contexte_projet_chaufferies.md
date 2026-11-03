@@ -288,8 +288,10 @@ Relevé (photo > folio > DOE) :
 ### Planche G2 rev 01, version du 15/10/2026 (refaite le 03/11/2026)
 
 - Consignes d'Ismail appliquées à G2 uniquement (M et BN inchangés) : titres de zones orange en 10, tout le reste en 8 ; date du cartouche 15/10/2026 ; pas de « à relever » ; pour chaque matériel, la marque est indiquée ou la planche dit « Marque et modèle non documentés aux folios SETIA » ; photos des chaudières agrandies (h 292) et photos des pompes à leur échelle (84 à 140).
-- Pompes de charge : modèle affiché selon le schéma de principe Dalkia affiché en chaufferie (Xylem Ecocirc XL 65-120 F), choix d'Ismail du 03/11 (« on suit le schéma de principe »), avec l'image Lowara ecocirc XL de ses planches. À mettre au LISEZMOI G2 : la photo de visite montre une pompe à tête verte sans afficheur, différente d'une ecocirc XL (tête grise à afficheur) ; le folio 12 donne 230 V, 4,1 A ; la Siriux de la planche rev 00 correspond à M3 (1,4 A).
+- Règle confirmée par Ismail (03/11) : la photo de visite passe avant tout ; le schéma de principe Dalkia ne sert de source que si la photo ne dit rien, et il est alors cité. Planche courte : c'est un synoptique de communication, pas un DOE.
+- Pompes de charge (photo 7, retour chaudière) : tête verte sans afficheur, plaque illisible ; le modèle Dalkia (Xylem Ecocirc XL, tête grise à afficheur) ne correspond pas → « Marque et modèle non documentés aux folios SETIA » + photo de visite retravaillée.
+- Circuit ancien bâtiment (photo 18, étiquettes DÉPART / RETOUR RADIATEUR HALL G1/G2) : deux Salmson à afficheur, de la famille Siriux → 2 × SALMSON SIRIUX 65-90 M, 230 V~. La Zoom 320C du schéma Dalkia (ancien circulateur monovitesse) est retirée ; le folio 12 donne encore la pompe 2 en 400 V 3~ (à signaler au LISEZMOI). Servomoteur de la vanne : photo de visite.
 - Pompe double du nouveau bâtiment : photo de visite (deux têtes Salmson, câbles repérés W-M5 et W-M6) à la place de l'image brochure Siriux Master.
-- Modèles repris du schéma de principe Dalkia et signalés comme tels : Salmson Zoom 320C (pompe 2 ancien bâtiment), Salmson XAS15NS, Lowara 46SV2/2AG055T.
+- Modèles repris du schéma de principe Dalkia (cités sur la planche) : Salmson XAS15NS (photo 40 : deux têtes Salmson), Lowara 46SV2/2AG055T (photo 35 : Lowara).
 - Servomoteur Siemens SQK34 : repris de la planche rev 00 d'Ismail (plaque non lisible sur les photos).
 - Générateur : scratchpad/lib/synlib.py (styles, grille, cartouche) et lib/body_G2.py.
