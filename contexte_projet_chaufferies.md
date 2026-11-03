@@ -295,3 +295,21 @@ Relevé (photo > folio > DOE) :
 - Modèles repris du schéma de principe Dalkia (cités sur la planche) : Salmson XAS15NS (photo 40 : deux têtes Salmson), Lowara 46SV2/2AG055T (photo 35 : Lowara).
 - Servomoteur Siemens SQK34 : repris de la planche rev 00 d'Ismail (plaque non lisible sur les photos).
 - Générateur : scratchpad/lib/synlib.py (styles, grille, cartouche) et lib/body_G2.py.
+
+### Règles pour les planches suivantes (Ismail, 03/11/2026)
+
+- Les photos de visite servent à trouver l'information (marque, modèle, alimentation) ; elles ne vont pas sur la planche si elles sont de mauvaise qualité. Sur la planche : des images produit propres.
+- Si les photos ne donnent pas l'information, on se base sur le schéma de principe affiché en chaufferie, en le citant : « (schéma de principe Dalkia) ».
+- Deux équipements identiques (2 pompes, 2 chaudières) : deux images du même produit.
+- Polices : titres de zones orange en 10, tout le reste en 8. Jamais « à relever » : « Marque et modèle non documentés aux folios ... ».
+- Planche courte : c'est un synoptique de communication pour présenter l'installation et les pistes, pas un DOE.
+- G2 clos le 03/11/2026 (rev 01, 15/10/2026).
+
+### Hall C : préparation (03/11/2026)
+
+- Interfaces à montrer en pointillé bleu, comme la NAVIPASS sur les planches Navistem :
+  - une Vitogate 300 type BN/MB (réf. Z013294) pour la chaufferie, c'est-à-dire pour les deux chaudières : LAN RJ45 en BACnet/IP ou Modbus TCP (ou RS-485 en BACnet MS/TP ou Modbus RTU), liaison LON vers les chaudières (notice de montage 5837575) ;
+  - un module LON par chaudière.
+- Offre Viessmann 0621550644 du 21/10/2026 (« Pour cascade CM2 + CR3B ») : 2 Vitogate 300 BN/MB Z013294 (une pour Hall C, une pour NOP), 2 modules de communication LON Z011478, 2 modules LON 7172173, 4 câbles LON RJ45 7 m 7143495, 2 lots de résistances terminales 7143497, 2 mises en service 7004828. Contient des prix : jamais en annexe ni sur une planche.
+- Répartition des modules LON : un même modèle pour les deux chaudières de Hall C, l'autre pour les deux de NOP. 7172173 convient aux Vitotronic 100 CC1E, CC1I, GC1, GC1B, GC4, GC4B, GC7B et 300 FW1, GW2, GW2B, GW4, GW4B (notice de montage du module) ; Z011478 non trouvé en ligne. À trancher avec le type de Vitotronic de Hall C (plaque ou photo).
+- Fiche transmise « FT_VITOGATE_300 » = consignes d'utilisation BACnet (5838974, 3/2019), pas la fiche matériel.
