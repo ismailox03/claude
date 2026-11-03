@@ -11,7 +11,56 @@ Vérification : Jérémy STAREMBERGER, Vincent FOJUD. Notes de réunion : Stéph
 | Cahier des charges « Raccordement des chaufferies gaz à l'hyperviseur » | .docx | Première émission en cours de reprise |
 | Synoptiques + fiches E/S automate | draw.io | B, D, F, BK/BL, T faits. Les autres sont à remplacer plus tard |
 
-## 2. Catégorisation des chaufferies
+## 0. État au 03/11/2026 (le plus à jour, prime sur la suite)
+
+### Catégories du CdC (version actuelle)
+
+| Cat. | Définition | Installations |
+|---|---|---|
+| 1 | Avec automate et écran local | B (Sauter modulo 5), T et F (Sauter modulo 6), BK-BL (Schneider SmartX AS-P) |
+| 2 | Sans automate, régulation Navistem | D, M, BN, BO, W |
+| 3 | Sans automate, régulateurs dispersés | Hall C, G2 (Elco), NOP (Viessmann) |
+
+Les sections 2 et 3 plus bas reprennent l'ancienne numérotation de la présentation.
+
+### Avancement des synoptiques
+
+- Faits : D, F, B, T, BK-BL, W, BO.
+- Restants pour l'annexe A du CdC : M, BN, Hall C, G2, NOP.
+- Décision Vincent (02/11) : juste le CdC pour le moment, aucun dossier documentaire joint. Réunion sur site ensuite. Puis livrets techniques des produits demandés (NAVIPASS, Vitogate, module Modbus Diehl, AS-P…) en annexe. Le dossier refondu interne vient après.
+- Sources draw.io chez Ismail : `Desktop\téléchargements\Brouillon\brouillon syn\Synoptiques_`.
+
+### Règles d'harmonisation des synoptiques (validées sur D le 21/10, complétées sur F le 23/10)
+
+- Cadre : titre gras majuscules, fabricant majuscules, modèle, puces (Alimentation en dernier). Chaudières : Qn / Pn à 80/60 °C.
+- Pas de vase ni de détail inutile pour l'hyperviseur. Organes internes (pompe d'irrigation, brûleur, régulation intégrée) non représentés.
+- Zones fonctionnelles seulement si la disposition s'y prête (D oui, F non). Bloc automate et armoire obligatoire s'il y a un automate.
+- Infos complémentaires en italique sous les blocs.
+- Trait plein bleu : com existante. Pointillé bleu : interface COM à exploiter, un bloc par port, « … requise » si matériel à ajouter, « Port : » et « Protocole : » en gras.
+- Liaisons : trait plein = folio + repère ; pointillé à points = forcément présente mais non documentée. Libellés au singulier, identiques des deux côtés.
+- Vocabulaire : « à relever », « raccordement à déterminer », jamais « non raccordé ». Limiter les « à relever ».
+- Vannes : « Vanne 3 voies » + photo vanne à secteur à brides + servomoteur SAL, sans réf de corps.
+- Pas de nouveaux styles ni couleurs.
+- Sans automate : bloc « ARMOIRE ÉLECTRIQUE - RELAYAGE », bandeau « BORNIER X1 - nn BORNES » (Repère gras | Désignation | Organe gris, ordre du bornier, une ligne par groupe), bandeau « ORGANES DE COMMANDE ET DE SIGNALISATION » (commutateurs, relais, contacteurs, voyants), ligne finale italique orange vers l'extérieur, pas de bloc COM sur l'armoire. Folio manquant : repères connus seulement, sinon « à relever ».
+- Avec automate : un seul bloc automate et armoire (zone orange), pas de tableau de bornier ni de repères X, bandeau de synthèse du bornier, renvoi à la fiche automate. Tous les ports COM montrés : câblés en plein, libres en pointillé.
+- Lignes finales orange (sans automate uniquement) : Pilotage / Armoire / Documentation.
+- Ordre de crédibilité : photos et plaques > schémas as-built récents > listes de points et dossiers automate > liste matériel / DOE > doc constructeur. Photo > folio. Une info manquante vaut mieux qu'une info fausse.
+
+### Besoin exprimé (S. Niedzwiedz, 07/09/2026)
+
+1. Températures des circuits. 2. Pression du réseau (valeur). 3. Marche réelle des circulateurs (retour de marche). 4. Marche/arrêt à distance des chaudières.
+
+### Points en suspens
+
+- Planche F : port WAN F à corriger en HTTP + HTTPS, port RS485 B en bus SLC Sauter.
+- T : bandeau alimentation « ALIMENTATION 24 V DC - EY-PS021 ».
+- BK-BL : fiche automate module 7 (ordre Genersys) et module 9 (PEL 2500 en 0-10 V) ; RS485 et LON de l'AS-P sont câblés (pas libres).
+- W : photos = Condensinox, DOE = Varmax 275. Photo retenue. 69 kW sans source.
+- G2 : Elco KM628 sans protocole, seulement 0-10 V consigne, 0-10 V retour puissance, contact sec de marche.
+- Hall C / NOP : offre Viessmann (jamais en annexe, prix) : 1 Vitogate 300 par chaufferie, 1 module LON par chaudière. NOP : les 3 Sauter equitherm M10 seront retirés, l'AS-P reprend la distribution.
+- Matrice de recensement et bilan BACS à mettre à jour en fin de projet.
+
+## 2. Catégorisation des chaufferies (ancienne numérotation de la présentation)
 
 Principe : une catégorie = un régulateur = une interface = une solution à répliquer.
 
