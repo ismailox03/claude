@@ -253,3 +253,12 @@ Relevé (photo > folio > DOE) :
 - Compteur gaz : émetteur COMMON LFK1, 10 imp/m³ (photo 27, propre à M).
 - Hors hyperviseur (à retirer) : vase Reflex, ballon électrique Altech CE ALT 250 (3 kW, 230 V), filtre Honeywell, disconnecteur.
 - LISEZMOI : piquages des retours inversés et V2V sur les retours (rapport de mise en service).
+
+### Planche M rev 01 (03/11/2026)
+
+- Reconstruite à partir du fichier d'Ismail, sur le modèle de BO (planche validée la plus proche : Navistem, aérothermes CIAT, armoire de relayage, compteur COMMON) et des règles de D. Police conservée à 7 comme D.
+- Colonnes : à gauche production (2 chaudières), équipements lus et pilotés par les chaudières (sonde extérieure, 2 vannes d'isolement), comptage gaz ; au centre l'armoire (bornier, organes, SYNTHÈSE) ; à droite aérothermes et commande, circuit bureaux, circuit atelier, filtre à boues.
+- Étiquettes de liaison des chaudières vers leurs organes rangées dans l'ordre inverse des cibles pour qu'aucun trait ne se croise.
+- Retirés : vase d'expansion, bloc ECS électrique. Ajoutés : NAVIPASS (pointillé bleu) par chaudière, bandeau SYNTHÈSE, entrée « Communication existante » au guide de lecture.
+- Épaisseurs de trait : cases en trait plein et en pointillé à 1, pointillé à points à 2 ; zones orange inchangées (2).
+- Texte parasite invisible (code draw.io collé) trouvé aussi dans D (cadre « AÉROTHERMES OUEST ») et BK-BL : même cause que les impressions à rallonge de BO.
