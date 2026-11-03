@@ -284,3 +284,12 @@ Relevé (photo > folio > DOE) :
   - e-Bus (bornes 41-42) présent sur le schéma Elco : bus interne Elco (cascade, régulateurs E6 / KKM). Elco indique qu'aucun protocole de communication n'est disponible : non repris sur la planche.
   - RVL469 : bornes de bus DB / MB présentes mais non raccordées (folio 28). Le CdC dit « aucune interface de communication » pour les régulateurs de circuits.
   - Modèles des pompes de charge et de la pompe 2 radiateurs d'après la nomenclature Dalkia, plaques non relevées.
+
+### Planche G2 rev 01, version du 15/10/2026 (refaite le 03/11/2026)
+
+- Consignes d'Ismail appliquées à G2 uniquement (M et BN inchangés) : titres de zones orange en 10, tout le reste en 8 ; date du cartouche 15/10/2026 ; pas de « à relever » ; pour chaque matériel, la marque est indiquée ou la planche dit « Marque et modèle non documentés aux folios SETIA » ; photos des chaudières agrandies (h 292) et photos des pompes à leur échelle (84 à 140).
+- Pompes de charge : la photo de visite montre une pompe à tête verte, sans afficheur. La Lowara (Xylem) ecocirc XL a une tête grise à afficheur (image de la planche T). Le modèle « Xylem Ecocirc XL 65-120 F » du schéma de principe Dalkia (2015) ne correspond donc pas à la pompe en place : marque et modèle non documentés sur la planche, photo de visite retravaillée (balance des blancs, luminosité, netteté). À mettre au LISEZMOI G2.
+- Pompe double du nouveau bâtiment : photo de visite (deux têtes Salmson, câbles repérés W-M5 et W-M6) à la place de l'image brochure Siriux Master.
+- Modèles repris du schéma de principe Dalkia et signalés comme tels : Salmson Zoom 320C (pompe 2 ancien bâtiment), Salmson XAS15NS, Lowara 46SV2/2AG055T.
+- Servomoteur Siemens SQK34 : repris de la planche rev 00 d'Ismail (plaque non lisible sur les photos).
+- Générateur : scratchpad/lib/synlib.py (styles, grille, cartouche) et lib/body_G2.py.
