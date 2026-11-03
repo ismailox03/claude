@@ -262,3 +262,10 @@ Relevé (photo > folio > DOE) :
 - Retirés : vase d'expansion, bloc ECS électrique. Ajoutés : NAVIPASS (pointillé bleu) par chaudière, bandeau SYNTHÈSE, entrée « Communication existante » au guide de lecture.
 - Épaisseurs de trait : cases en trait plein et en pointillé à 1, pointillé à points à 2 ; zones orange inchangées (2).
 - Texte parasite invisible (code draw.io collé) trouvé aussi dans D (cadre « AÉROTHERMES OUEST ») et BK-BL : même cause que les impressions à rallonge de BO.
+
+### Planche BN rev 01 (03/11/2026)
+
+- Reconstruite à partir du PDF (pas de .drawio fourni), sur la grille et les styles de M / BO. Sources : schéma électrique de l'armoire (9 folios, bornier X1 26 bornes et X2 30 bornes), photos du 26/08/2026, schéma de principe Dalkia affiché en chaufferie (28/11/2023). Pas de DOE.
+- Plaques : Varmax 275 n° V041020782 (2020), Qn 275 / Pn 268 kW, 300 mbar ; Grundfos MAGNA1 D 32-120 F 220, 1 x 230 V ; compteur COMMON CPT-01 QUANTOMETER DN 50 G40, Qmax 65 m³/h, 2021.
+- Corrigé : bloc LPB « OCI345 requis » remplacé par la NAVIPASS ; MAGNA1 = entrée marche/arrêt + relais de défaut (doc Grundfos), câblés au bornier X1 selon folios 04-05 et visibles en photo ; « 10 imp/m³ » retiré (absent de la plaque) ; repère H3 et « deux vitesses disponibles » retirés (non documentés).
+- À mettre au LISEZMOI BN : schéma de principe = MAGNA1 D 32-80 et deux radiateurs (plaque et folios retenus : 32-120 F 220, un ventilo-convecteur Q9) ; folio 06 nomme Q9 à Q14 les disjoncteurs des aérothermes (Q11 à Q16 au folio 03, retenu) ; marque des aérothermes non relevée (la photo utilisée est celle d'un CIAT).
