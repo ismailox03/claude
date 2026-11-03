@@ -237,3 +237,19 @@ Incohérences à corriger :
 - [ ] Questions à Atlantic sur la NAVIPASS
 - [ ] Question à Schneider : entrée RS485 côté hyperviseur (cas 1) ?
 - [ ] Visite au D (vannes motorisées)
+
+## 10. Chaufferie M (relecture du 03/11/2026)
+
+Docs reçus : planche rev 00 (25/08/2026), DOE Dalkia « Travaux Chaufferie M » (41 p.), folios armoire aérothermes Dalkia 02-03 (04/04/2019), schéma câblage CIAT, fiche Belimo, extraits Varmax et Lowara, 30 photos de visite.
+
+Relevé (photo > folio > DOE) :
+- Chaudière 1 : plaque Varmax 275, Qn 66-275 kW, Pn 64,3-268 kW à 80/60, PMS 6 bar, gaz 300 mbar, 230 V mono, 238 W, n° V271819613, 2018. Maître.
+- Chaudière 2 : étiquette interne n° V103812830 (photo 7). C'est le numéro du rapport de mise en service rangé dans le DOE de W : ce rapport concerne en fait M. A corriger dans les notes W.
+- Cascade LMS + OCI345 + sonde extérieure, adresse LPB 2/0, V2V pilotées par la chaudière (rapport de mise en service Atlantic, intervention 01/10/2018, édité le 24/03/2021). Le rapport mentionne aussi un circuit radiateur mélangé « piloté par régulation client » et « régulation réseau secondaire : automate / AVS 75 » : non vu en photo.
+- Armoire aérothermes : bornier X1 24 bornes, S1 AUTO/0/MANU, thermostat X1:3-4, GV1-GV4 + KM1-KM4 (une vitesse), ipsotherme en série avec la bobine KM (X1:8-9…), 4 voyants marche, 4 défaut, 1 sous tension. Conforme aux folios 02 et 03.
+- Circuit bureaux : pompe double Grundfos UPS D40-60 F, 3 x 400 V, 3 vitesses, sans communication (photo 13). Sonde Siemens QAD22 sur la tuyauterie.
+- Circuit atelier : Grundfos MAGNA3 D 50-120 F 280, 230 V (photo 11).
+- Pot à boue : pompe Lowara ecocirc XL, taille illisible en photo.
+- Compteur gaz : émetteur COMMON LFK1, 10 imp/m³ (photo 27, propre à M).
+- Hors hyperviseur (à retirer) : vase Reflex, ballon électrique Altech CE ALT 250 (3 kW, 230 V), filtre Honeywell, disconnecteur.
+- LISEZMOI : piquages des retours inversés et V2V sur les retours (rapport de mise en service).
