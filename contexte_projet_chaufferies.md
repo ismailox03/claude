@@ -269,3 +269,16 @@ Relevé (photo > folio > DOE) :
 - Plaques : Varmax 275 n° V041020782 (2020), Qn 275 / Pn 268 kW, 300 mbar ; Grundfos MAGNA1 D 32-120 F 220, 1 x 230 V ; compteur COMMON CPT-01 QUANTOMETER DN 50 G40, Qmax 65 m³/h, 2021.
 - Corrigé : bloc LPB « OCI345 requis » remplacé par la NAVIPASS ; MAGNA1 = entrée marche/arrêt + relais de défaut (doc Grundfos), câblés au bornier X1 selon folios 04-05 et visibles en photo ; « 10 imp/m³ » retiré (absent de la plaque) ; repère H3 et « deux vitesses disponibles » retirés (non documentés).
 - À mettre au LISEZMOI BN : schéma de principe = MAGNA1 D 32-80 et deux radiateurs (plaque et folios retenus : 32-120 F 220, un ventilo-convecteur Q9) ; folio 06 nomme Q9 à Q14 les disjoncteurs des aérothermes (Q11 à Q16 au folio 03, retenu) ; marque des aérothermes non relevée (la photo utilisée est celle d'un CIAT).
+
+### Planche G2 rev 01 (03/11/2026)
+
+- Reconstruite sur la grille M / BN à partir du .drawio d'Ismail (images reprises). Sources lues : dossier électrique SETIA (indice B tel que construit 11/12/2014, folio 14 annoté indice C 24/03/2016 ; les deux scans doc0249 et doc0251 sont le même dossier), schéma de principe Dalkia affiché (02/02/2015, nomenclature), documentation Elco Rendamax 3501-3505 (avril 2005), option Elco « Potentialfreie Sammelstörung », codes défauts R3000 / KKM8, 41 photos.
+- Plaque (une seule chaudière photographiée deux fois, S/N 3581510KE142400000134) : R 3501, Q(Hi) 653 kW, P 80/60 613 kW, G20 20 mbar, 3 x 400 V, PMS 8 bar.
+- Corrigé : pompes de charge = Xylem Ecocirc XL 65-120 F (nomenclature Dalkia, folio 12 : 230 V 4,1 A, tête verte en photo) et non Salmson Siriux ; pompe 2 ancien bâtiment = Salmson Zoom 320C 400 V 3~ (nomenclature + folio 12) ; sondes en rouge (mesure) ; pressostat coupe toutes les commandes (folio 16), pas seulement les chaudières ; sonde extérieure déplacée dans « Équipements du réseau chauffage » ; synthèse ajoutée.
+- Bornier chaudière (notice 3501-3505 p.14) : 10-11 libération externe, 37-38 consigne externe 2-10 V (10-90 °C), 42 E-Bus ; option relais de défaut 93 commun / 94 OK / 95 ALARM.
+- À mettre au LISEZMOI G2 :
+  - Sens du relais de défaut : la feuille Elco repère 94 = OK et 95 = ALARM, les folios SETIA 18 et 20 câblent 94 vers le relais de défaut (KDCH, 20KA01) et 95 vers « chaudière OK » / « état marche » (KRMC, 20KA02). À vérifier sur site.
+  - Borniers : folios 32 (X2, 4 bornes) et 38 (X5, 6 bornes) à l'indice A ; les folios 18 et 20 à l'indice B placent tous les signaux chaudière sur X2:5-10. Indice B retenu.
+  - CdC : « consigne 0-10 V » (SAV Elco) contre 2-10 V dans la notice 3501-3505 ; retour de puissance 0-10 V absent du plan de raccordement de la notice (seul P9 « puissance actuelle du brûleur » est affiché) : à confirmer par Elco.
+  - RVL469 : bornes de bus DB / MB présentes mais non raccordées (folio 28). Le CdC dit « aucune interface de communication » pour les régulateurs de circuits.
+  - Modèles des pompes de charge et de la pompe 2 radiateurs d'après la nomenclature Dalkia, plaques non relevées.
