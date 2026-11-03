@@ -322,3 +322,13 @@ Relevé (photo > folio > DOE) :
 - Schéma électrique Dalkia (8 folios, 27/06/2019) : bornier X1 67 bornes (folio 08). Défaut des pompes nord régulé = contacts auxiliaires des disjoncteurs Q14 et Q15 vers KA2 et KA4 (folio 05), pas un relais de la pompe. KA17 = manque d'eau (X1:49-50).
 - Schéma de principe Dalkia affiché : nord régulé 2 × Salmson Priux Master 65-80 + V3V DN50 ; sud régulé Ecocirc XL D 65-80 + V3V DN50 ; « Constant S » Ecocirc XL D 80-120 ; « Constant R » Ecocirc XL D 65-80 ; V2V DN80 motorisée sur chaque chaudière ; Compresso Connect ; Vento Connect. Aucune photo des pompes dans les données de visite. Le schéma électrique parle de « Nord constant » et « Sud constant » : affectation des deux pompes constantes à confirmer.
 - Photos : Siemens SAL31 sur les vannes ; Compresso CG 700.6 avec BrainCube2 (adresse MAC visible) ; Vento Connect.
+
+### Planche Hall C rev 01 (22/10/2026, refaite le 03/11/2026)
+
+- Gabarit G2 (polices 8 / titres 10), images constructeur uniquement : Vitocrossal 200 (brochure Viessmann), Salmson Priux Master, Lowara ecocirc XL D, vanne à secteur + Siemens SAL31 (images de D), Compresso Connect et Vento Connect (images de D).
+- Communication à créer, en pointillé bleu comme les NAVIPASS : un bloc « module LON requis pour le raccordement à la Vitogate 300 » dans chaque cadre chaudière (Vitotronic 100 CC1E, une par chaudière), et un bloc « Vitogate 300 type BN/MB, une pour les deux chaudières » (LAN RJ45 BACnet/IP ou Modbus TCP, RS-485 BACnet MS/TP ou Modbus RTU, câble LON RJ45). Sans référence de module LON (Z011478 / 7172173 non tranché).
+- Puissance corrigée : Qn 474 kW, Pn 460 kW à 80/60 °C (au lieu de « 2 × 500 kW, soit 1 MW »).
+- Liaisons d'après les folios Dalkia : alimentations sur Q3 à Q15 (folios 01 et 03), ordres de marche KA5 à KA15, défauts KA6 à KA16, défauts chaudières vers voyants, manque d'eau KA17, arrêt d'urgence sur MT. Les défauts des pompes nord régulé (contact de disjoncteur, KA2 et KA4) restent dans l'armoire : pas de liaison. Vannes 3 voies : alimentation et commande en pointillé à points, « origine non documentée ».
+- Circuits constants : les deux pompes doubles en « LOWARA ECOCIRC XL D », avec une note : tailles 80-120 et 65-80 selon le schéma de principe, répartition nord / sud non précisée.
+- Folio 05 : les contacts de défaut KA2 et KA4 sont repérés « Aux Q14 / Aux Q15 », alors que les pompes nord régulé sont sur Q8 et Q9 (folio 01) : à signaler au LISEZMOI Hall C.
+- Générateur : scratchpad/lib/body_HC.py.
