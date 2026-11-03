@@ -334,3 +334,15 @@ Relevé (photo > folio > DOE) :
 - Générateur : scratchpad/lib/body_HC.py.
 - 03/11 (après retour d'Ismail) : chaudières agrandies, images les plus grandes de la planche (210 de haut ; Compresso 160, Vento 116, pompes 80 à 96, vanne et servomoteur 56 à 62) ; « + » entre deux équipements couplés (2 pompes Priux, vanne + servomoteur, Compresso + Vento) ; colonne gauche élargie (cadres 420), armoire en tableaux de 300 ; Compresso et Vento réunis dans un cadre « Maintien de pression et dégazage » (zone « Équipements du réseau chauffage »).
 
+
+### NOP : analyse avant reprise (03/11/2026)
+
+- Sources : planche rev 01 du 29/08/2026 (PDF seul, pas de .drawio) ; visite 1 (35 photos : façades, armoire, 3 Sauter M10, pompes, Pneumatex, filtre, servomoteurs) ; visite 2 du 15/10/2026 (20 photos : plaques chaudières et brûleurs, écrans Vitotronic, variateurs NORD).
+- Fichiers de Jean-Philippe : « DOE - NOP.pdf » = « 86639-DOE.pdf » (même fichier) = DOE Beirens de la cheminée (autoportante Ø550, 17 m, 2 carneaux Ø300, Dalkia Maizières, 2022) : NOP probable, inutile au synoptique. Fiches FP_12 chaudière / FP_13 brûleur = projet Veuve Clicquot (Clauger 2017), pas la chaufferie, mais même matériel (Vitocrossal 300 CR3B + Weishaupt WM-G10/3-A ZM-LN) : pages constructeur réutilisables comme doc produit. Carnet d'entretien Beirens 2020 : générique, illisible (PDF interactif).
+- Chaudières : 2 × Vitocrossal 300 CR3B (n° 7436409 701064 104 lisible), Qn 742 kW, Pn 720 kW à 80/60 (787 kW à 50/30) : 1 440 kW. Brûleurs Weishaupt WM-G10/3-A ZM-LN monarch (2017, 125-900 kW, W-FM 50 avec vitesse variable) ; variateurs NORD SK 200E (1,5 kW, 2017) = ventilateurs des brûleurs (organe interne, hors planche).
+- Une Vitotronic par chaudière, cascade active (n° régulation 7787300700567102 et 7787300700851102) ; écran « Informations LAN » : LAN intégré non activé (connectivité Viessmann, pas un protocole GTB) : LISEZMOI.
+- Vannes d'isolement motorisées : 2 × Siemens SAL31 sur les chaudières (la planche disait « aucun servomoteur »). Un Sauter ASM124F120 (3 points, 230 V) près des collecteurs, circuit non identifié.
+- 3 Sauter equitherm M10 : régulation aérothermes / nord-est et sud-ouest / chaudière et réseau fatigue (retirés dans le projet, décision du 02/11).
+- 6 circuits à 2 pompes : fatigue (Grundfos UPS), aérothermes, nord-est, sud-ouest (Grundfos UPC, 3~ ; plaques UPC 40-120 et UPC 50-120 lues, affectation incertaine), sous-station (Grundfos MAGNA ancienne série), hall BF2 (Grundfos MAGNA1, « BF2 pompe 1 / 2 »).
+- IMI Pneumatex : commande BrainCube2 à écran tactile avec adresse MAC (BrainCube Connect, comme D et Hall C) + un second boîtier Pneumatex BrainCube ancienne génération. Filtre magnétique Atlantic Guillot MagNet 07P (2014, 230 V, 420 W) avec coffret de détection d'encrassement (la planche disait « vase, ballon Atlantic Guillot »).
+- Images constructeur : sites fabricants bloqués par le réseau de la session (viessmann.co.uk refusé) ; liens à transmettre à Ismail.
