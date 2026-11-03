@@ -346,3 +346,12 @@ Relevé (photo > folio > DOE) :
 - 6 circuits à 2 pompes : fatigue (Grundfos UPS), aérothermes, nord-est, sud-ouest (Grundfos UPC, 3~ ; plaques UPC 40-120 et UPC 50-120 lues, affectation incertaine), sous-station (Grundfos MAGNA ancienne série), hall BF2 (Grundfos MAGNA1, « BF2 pompe 1 / 2 »).
 - IMI Pneumatex : commande BrainCube2 à écran tactile avec adresse MAC (BrainCube Connect, comme D et Hall C) + un second boîtier Pneumatex BrainCube ancienne génération. Filtre magnétique Atlantic Guillot MagNet 07P (2014, 230 V, 420 W) avec coffret de détection d'encrassement (la planche disait « vase, ballon Atlantic Guillot »).
 - Images constructeur : sites fabricants bloqués par le réseau de la session (viessmann.co.uk refusé) ; liens à transmettre à Ismail.
+
+### Planche NOP rev 01 (29/10/2026, faite le 03/11/2026)
+
+- Faite de zéro sur le gabarit de Hall C (pas de .drawio). Images constructeur : Vitocrossal 300 et Pneumatex fournies par Ismail, brûleur Weishaupt WM-G10 détouré dans la doc Weishaupt 83211401 (page 13), Vento (image de Hall C), MAGNA1 D (image de D). Photos de visite retravaillées (balance des blancs, contraste, netteté, recadrage, coins arrondis) pour les pompes UPC, UPS et MAGNA, le filtre MagNet et le Sauter M10.
+- Échelle logique des images : chaudières 232, Pneumatex 168, Vento 108, pompes 84 à 90, filtre 86, brûleur 64, régulateur 62. Signe « + » entre chaudière et brûleur, et entre maintien de pression et Vento.
+- Communication : un module LON par chaudière + une Vitogate 300 (même formulation que Hall C) ; Pneumatex et Vento avec BrainCube Connect (confirmé par Ismail), ports RS485 Modbus RTU et RJ45 Modbus TCP en pointillé bleu.
+- Aucun DOE, aucun schéma : toutes les liaisons en pointillé à points, « Constaté en façade » (commutateurs et voyants) ou « Origine non documentée » (alimentation des chaudières), sans repère de borne. Synthèse « Documentation » : manque de données dit explicitement.
+- Armoires en texte (relevé de façade) ; 3 Sauter M10 avec « Fonctions à reprendre par l'automate dans le cadre du projet ». Variateurs NORD (ventilateurs des brûleurs), vase, vannes manuelles : retirés.
+- Images réduites (~3 px par point affiché) : fichier de 2,9 Mo au lieu de 10,5 Mo. Générateur : scratchpad/lib/body_NOP.py.
