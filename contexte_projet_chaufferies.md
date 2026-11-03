@@ -332,3 +332,5 @@ Relevé (photo > folio > DOE) :
 - Circuits constants : les deux pompes doubles en « LOWARA ECOCIRC XL D », avec une note : tailles 80-120 et 65-80 selon le schéma de principe, répartition nord / sud non précisée.
 - Folio 05 : les contacts de défaut KA2 et KA4 sont repérés « Aux Q14 / Aux Q15 », alors que les pompes nord régulé sont sur Q8 et Q9 (folio 01) : à signaler au LISEZMOI Hall C.
 - Générateur : scratchpad/lib/body_HC.py.
+- 03/11 (après retour d'Ismail) : chaudières agrandies, images les plus grandes de la planche (210 de haut ; Compresso 160, Vento 116, pompes 80 à 96, vanne et servomoteur 56 à 62) ; « + » entre deux équipements couplés (2 pompes Priux, vanne + servomoteur, Compresso + Vento) ; colonne gauche élargie (cadres 420), armoire en tableaux de 300 ; Compresso et Vento réunis dans un cadre « Maintien de pression et dégazage » (zone « Équipements du réseau chauffage »).
+
