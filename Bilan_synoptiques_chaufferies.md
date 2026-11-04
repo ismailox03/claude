@@ -673,3 +673,44 @@ Pièces de justification pour G2 :
 
 Le récapitulatif de projet tenu en parallèle se trouve dans `contexte_projet_chaufferies.md`
 (même dépôt).
+
+---
+
+## 10. Mise à jour du 4 novembre 2026
+
+### 10.1 NOP : corrections avant envoi du CdC
+
+Faites sur la version générée le 03/11 (le `.drawio` modifié par Ismail n'a pas été reçu). Mise en page, cartouche
+(rév. 01, 29/10/2026, Validé), guide de lecture et synthèse inchangés.
+
+| # | Zone | Modification | Source |
+|---|---|---|---|
+| 1 | Réseau aérothermes | Modèle : 2 × GRUNDFOS UPC 50-60 (alimentation 400 V 3~ conservée) | Photo p.20 (plaques des têtes 1 et 2, 380 V 3~) |
+| 2 | Réseau fatigue | Modèle : UPS corrigé en UPC 40-120 ; puce « Alimentation : 400 V 3~ » ajoutée | Photo p.17 (plaques, boîte « TYPE C 3~ ») |
+| 3 | Réseau nord-est | Modèle : 2 × GRUNDFOS UPC 40-120 | Photo p.22 (plaques des têtes 1 et 2) |
+| 4 | Réseau sud-ouest | Modèle : 2 × GRUNDFOS UPC 50-120, italique « Pompe 2 de série plus récente » | Photos p.24 (tête 1, Modell A) et p.23 (tête 2, P/N 96405950, Model E) |
+| 5 | Réseau sous-station | Modèle conservé (MAGNA ancienne série), sans puce d'alimentation ; italique « Modèle exact non documenté (plaque non relevée) » | Photos p.27 à 29 (pas de plaque) |
+| 6 | Hall BF 2 | Modèle : MAGNA1 D 80-60 F 360 ; italique « Pompe non communicante, la gamme MAGNA1 n'accepte pas de module CIM » | Photo p.4 (P/N 99221418, 1 × 230 V) et p.5 |
+| 7 | Filtre magnétique | Liaison ajoutée « Alimentation filtre magnétique / Origine non documentée » (pointillé à points, gris, armoire vers équipement), pas de liaison de défaut | Photos p.9 (plaque) et p.10 (coffret, voyant local) |
+| 8 | Maintien de pression et dégazage | Liaisons « Alimentation maintien de pression » et « Alimentation centrale de dégazage Vento », « Origine non documentée », même style | Photos de visite (pas de schéma) |
+| 9 | Chaudières 1 et 2 | Liaison ajoutée sous chaque « Alimentation chaudière N » : « Alimentation brûleur N / Origine non documentée » | Plaques des brûleurs Weishaupt (400 V 3~), photos du 15/10/2026 |
+
+Rien d'ajouté pour les vannes SAL31, le servomoteur Sauter ASM124F120, les variateurs NORD, le vase, les collecteurs
+et les vannes manuelles. Contrôles : une page A3, aucun débordement ni chevauchement, aucun texte parasite,
+identifiants uniques, aucune référence cassée.
+
+### 10.2 M et BN alignés sur G2, Hall C et NOP
+
+Reconstruits sur le gabarit commun (titres en 10, texte en 8, images à l'échelle, signe « + » entre équipements couplés),
+contenu inchangé sauf :
+
+- **Dates** : M au 01/10/2026 et BN au 08/10/2026, pour prolonger la série G2 (15/10), Hall C (22/10), NOP (29/10)
+  à une semaine ouvrée d'écart.
+- **« À relever » supprimés** : M, départ X1:1-2 « Départ 230 V, destination non documentée » ; BN, compteur gaz
+  « Poids d'impulsion et raccordement non documentés ».
+- **Marques** : « Marque et modèle non documentés aux folios… » ajouté quand la marque est inconnue (M : thermostat,
+  sonde extérieure, pot à boue ; BN : aérothermes, extracteur, régulation d'ambiance, volet d'air neuf, ventilo-convecteur,
+  désemboueur).
+- **M** : les deux vannes d'isolement Belimo réunies dans un seul cadre (deux images) pour tenir en police 8.
+- **BN** : le pot à boue passe dans une zone « Équipements du réseau chauffage » à gauche, comme à NOP ; le logo CIAT
+  est retiré de l'image des aérothermes (marque non documentée à BN).
